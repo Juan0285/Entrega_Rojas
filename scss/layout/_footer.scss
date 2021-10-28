@@ -1,0 +1,395 @@
+
+// @import "variables.scss";
+
+.footer{
+    background-color:$coloruno ;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    
+    
+    .cont_footer{
+        display: flex;
+        height:90% ;
+        align-items: center;
+        justify-content: center;
+        
+       
+
+        .redes{
+            background-color:$coloruno ;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+    
+                .seguinos{
+                    h5{
+                        color: $colorSeis; 
+                        text-align: center;
+                        font-size: 13px;
+                    }
+
+                }
+                .iconos{
+                    display: flex;
+                    justify-content: space-evenly;
+                    // height: 100%;
+                    width: 100%;
+                
+                            a{
+                                height:80% ;
+                                
+                
+
+                                img{
+                                    height:100%;
+                                }
+                            }
+    
+                }
+        }
+
+        .infoBar{
+            color:$colorSeis;
+            border-left: .5px solid white;
+
+            h4{
+                font-size: 15px;
+            }
+            p{
+                font-size: 13px;
+            }
+        }
+        
+       
+
+    
+
+
+
+    }
+    
+    
+
+}
+
+/* ------mediaQuery----- */
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    
+
+    .footer{
+        background-color:$coloruno ;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        
+        
+        .cont_footer{
+            display: flex;
+            height:90% ;
+            align-items: center;
+            
+           
+    
+            .redes{
+                background-color:$coloruno ;
+                display: flex;
+                flex-direction: column;
+                height: 20%;
+                align-items: center;
+                justify-content: center;
+        
+                    .seguinos{
+                        h5{
+                            color: $colorSeis; 
+                            text-align: center;
+                            font-size: 13px;
+                        }
+    
+                    }
+                    .iconos{
+                        display: flex;
+                        justify-content: space-evenly;
+                        // height: 100%;
+                        width: 100%;
+                    
+                                a{
+                                    height:80% ;
+                                    
+                    
+    
+                                    img{
+                                        height:100%;
+                                    }
+                                }
+        
+                    }
+            }
+    
+            .infoBar{
+                color:$colorSeis;
+                border-left: .5px solid white;
+                h4{
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 13px;
+                }
+            }
+            
+    
+    
+        }
+        
+        
+    
+    }
+
+
+
+}
+
+@media screen and (max-width:992px) {
+    
+
+    .footer{
+        background-color:$coloruno ;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        
+        
+        .cont_footer{
+            display: flex;
+            height:90% ;
+            align-items: center;
+            
+           
+    
+            .redes{
+                background-color:$coloruno ;
+                display: flex;
+                flex-direction: column;
+                height: 5%;
+                align-items: center;
+                justify-content: center;
+        
+                    .seguinos{
+                        h5{
+                            color: $colorSeis; 
+                            text-align: center;
+                            font-size: 13px;
+                        }
+    
+                    }
+                    .iconos{
+                        display: flex;
+                        justify-content: space-evenly;
+                        // height: 100%;
+                        width: 100%;
+                    
+                                a{
+                                    height:80% ;
+                                    
+                    
+    
+                                    img{
+                                        height:100%;
+                                    }
+                                }
+        
+                    }
+            }
+    
+            .infoBar{
+                color:$colorSeis;
+                border-left: .5px solid white;
+                h4{
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 13px;
+                    display: block;
+                }
+            }
+        
+    
+
+    
+        }
+        
+        
+    
+    }
+
+
+
+}
+
+@media screen and (max-width:768px) {
+    
+
+    .footer{
+        background-color:$coloruno ;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        
+        
+        .cont_footer{
+            display: flex;
+            height:90% ;
+            align-items: center;
+            
+           
+    
+            .redes{
+                background-color:$coloruno ;
+                display: flex;
+                flex-direction: column;
+                height: 20%;
+                align-items: center;
+                justify-content: center;
+        
+                    .seguinos{
+                        h5{
+                            color: $colorSeis; 
+                            text-align: center;
+                            font-size: 10px;
+                            display: block;
+                        }
+    
+                    }
+                    .iconos{
+                        display: flex;
+                        justify-content: space-evenly;
+                        // height: 100%;
+                        width: 100%;
+                    
+                                a{
+                                    height:80% ;
+                                    
+                    
+    
+                                    img{
+                                        height:100%;
+                                    }
+                                }
+        
+                    }
+            }
+    
+            .infoBar{
+                color:$colorSeis;
+            
+                h4{
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 12px;
+                    display: block;
+                }
+                
+            }
+            
+    
+        }
+        
+        
+    
+    }
+
+
+
+}
+
+@media screen and (max-width:540px) {
+    
+
+    .footer{
+        background-color:$coloruno ;
+        height: 550px;
+        display: flex;
+        align-items: center;
+        
+        
+        .cont_footer{
+            display: flex;
+            height:80% ;
+            align-items: center;
+            
+           
+    
+            .redes{
+                display: flex;
+                flex-direction: column;
+                height: 5%;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+        
+                    .seguinos{
+                        h5{
+                            color: $colorSeis; 
+                            text-align: center;
+                            font-size: 13px;
+                            display: block;
+                        }
+    
+                    }
+                    .iconos{
+                        display: flex;
+                        justify-content: space-evenly;
+                        width: 100%;
+                    
+                                a{
+                                    height:80% ;
+                                    
+                    
+    
+                                    img{
+                                        height:100%;
+                                    }
+                                }
+        
+                    }
+            }
+    
+            .infoBar{
+                color:$colorSeis;
+                border-left: none;
+                
+                h4{
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 11px;
+                    display: block;
+                }
+            }
+            
+    
+        }
+        
+        
+    
+    }
+
+
+
+}
+
+
+
+
+
+

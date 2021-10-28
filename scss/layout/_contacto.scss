@@ -1,0 +1,145 @@
+
+// @import "variables.scss";
+
+
+// --------margen superior de todo el contenido para separarlo del navegador--------
+.margenSup_Cont{
+    margin-top: $margenSuperior;
+    justify-content: center;
+
+    // --------Contenedor flexible para los 3 elemntos que lo componen (mapa / form / img)--------
+    .cuadro{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap; 
+        height: 100%; 
+        margin-bottom: 10px;   
+    }
+
+}
+
+// --------mapa de google----------
+.mapita {
+    width:32.5%;
+    border-radius: 8px; 
+   
+}
+
+// --------Formulario de contacto----------
+.formulario{
+    width:32.5%;
+    padding:20px;
+    border-radius: 8px; 
+  
+}
+
+// --------Imagen alusiva----------
+.img_contacto{
+    width:32.5%;
+    background-image: url(../img/main/Contacto/img_contacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px; 
+    
+}
+
+
+/* ------mediaQuery----- */
+
+
+@media screen and (max-width: 1400px) {
+    .mapita {
+         width:32.5%;
+    }
+
+    .formulario{
+         width:32.5%;
+         padding:20px;
+    }
+
+    .img_contacto{
+         width:32.5%;
+        background-image: url(../img/main/Contacto/img_contacto.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .mapita {
+        width:32.5%;
+    }
+
+    .formulario{
+        width:32.5%;
+        padding:20px;
+    }
+
+    .img_contacto{
+        width:32.5%;
+        background-image: url(../img/main/Contacto/img_contacto.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .mapita {
+        width:100%;
+        margin-bottom: 10px;
+        height: 275px;
+    }
+
+    .formulario{
+        width:48.8%;
+        padding:20px;
+    }
+
+    .img_contacto{
+        width:48.8%;
+        background-image: url(../img/main/Contacto/img_contacto.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mapita {
+        width:100%;
+        margin-bottom: 10px;
+        height: 275px;
+    }
+
+    .formulario{
+        width:48.8%;
+        padding:20px;
+    }
+
+    .img_contacto{
+        width:48.8%;
+        background-image: url(../img/main/Contacto/img_contacto.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .mapita {
+        width: 100%;
+        margin-bottom: 10px;
+        height:400px;
+    }
+
+    .formulario{
+        width:100%;
+        margin-bottom: 10px;
+    }
+
+    .img_contacto{
+        width:100%;
+        height: 600px;
+        background-image: url(../img/main/Contacto/img_contacto.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
